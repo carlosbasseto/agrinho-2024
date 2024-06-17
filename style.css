@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:5rem;
+}
+
+:root{
+    --cinza-claro:#ededee;
+    --font-paragrafo: "Roboto", sans-serif;
+    --font-titulo: "Exo 2", sans-serif;
+    --cinza-escuro: #2c2c2c; 
+    --verde: #75c203;
+    --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+
+.cabecario{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cinza-claro);
+    position: fixed;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+}
+
+.img-logo{
+    padding: 15px;
+}
+
+.logo{
+    width: 50px;   
+}
+
+.lista-home{
+    display: flex;
+    margin-right: 35px;
+    list-style: none;
+}
+
+.link-nav{
+    text-decoration:none ;
+    padding: 15px;
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+}
+
+.link-nav:hover{
+    color: var(--verde);
+}
+
+h1{
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+    padding: 205px 0px 0px 105px;
+    font-size: 37px;
+}
+
+.container{
+    height: 87vh;
+    display: flex;
+}
+
+.container-img-home{
+    padding: 85px;
+    margin-top: 50px;
+}
+
+.img-home{
+    width: 40rem;
+    border-radius: 8px;
+}
+
+.botoes-home{
+    text-align: center;
+    padding: 45px;
+    margin-left: 25px
+}
+
+.link-home{
+    color: white;
+    text-decoration: none;
+}
+
+.link-home{
+    color: var(--cinza-escuro);
+}
+
+.btn-home{
+    background-color: var(--verde);
+    color: white;
+    font-family: var(--font-titulo);
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-home:hover{
+    background-color: transparent;
+    color:var(--cinza-escuro);
+    border: 2px solid var(--verde);
+}
+
+h4{
+    padding: 15px 0px 0px 115px;
+    color: var(--cinza-escuro);
+    font-family: var(--font-paragrafo);   
+}
+/* fim section-home */
+
+/* Inicio section-tecnologia */
+
+.tecnologia{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cinza-claro);
+}
+
+
+.container-tecnologia{
+    display: flex;
+    justify-content: space-between;
+    padding: 105px;
+}
+
+.card{
+    background-color: white;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    height: 375px;
+    box-shadow: var(--box-shadow);    
+    border-radius: 8px;
+}
+
+.img-card-tec{
+    padding: 15px;
+}
+
+h2{
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+    padding: 8px;
+}
+
+.descricao-cad-tec{
+    color: var(--cinza-escuro);
+    font-family: var(--font-paragrafo);
+    font-size: 14px;
+    padding: 15px;
+}
+
+.conte-info{
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-family: var(--font-titulo);
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.conte-info::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--verde);
+    transition: width 0.5s ease;
+}
+
+.conte-info:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.conte-info:hover{
+    color: var(--verde);
+}
+
+/* Fim section  tecnologia*/
+
+/* Inicio section educação */
+
+.educacao{
+    width: 100%;
+    height: 100vh;
+}
+
+.contaienr-educacao{
+    display: flex;
+
+}
+
+.risco{
+    display: flex;
+    padding: 50px 0px 0px 50px;
+}
+
+.divisoria-edu{
+    margin-left: 10px;
+    color: var(--verde);
+    font-size: 18px;
+}
+
+.bem-vindo-educacao{
+    margin-top: 8px;
+    margin-left: 8px;
+    color: var(--verde);
+    font-family: var(--font-titulo);
+    font-size: 17px;
+}
+
+h3{
+    font-size: 32px;
+    padding: 8px 0px 0px 60px;
+    font-weight: 600;
+}
+
+.color-verde{
+    color: var(--verde);
+}
+
+.imagem-educacao{
+    width: 35rem;
+    margin-top: 100px;
+    margin-left: 55px;
+}
+
+.caixa-1-educacao{
+    margin-top: 80px;
+}
+
+.descricao-educacao{
+    padding: 8px 0px 0px 60px;
+    font-family: var(--font-paragrafo);
+    font-size: 14px;
+}
+
+.icones-tecnologia{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.svg-tec{
+    width: 30px;
+    fill: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.card-tec{
+    background-color: var(--verde);
+    width: 10%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    margin-left: 45px;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.descricao-svg-edu{
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--font-titulo);
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+/* Fim section educaçao */
+
+/* inicio section saude */
+
+.saude{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cinza-claro);
+}
+
+.titulo-saude{
+    text-align: center;
+    padding: 35px;
+    font-size: 32px;
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+    font-weight: 600;
+}
+
+.descricao-saude{
+    text-align: center;
+    font-family: var(--font-paragrafo);
+    font-size: 15px;
+    color: var(--cinza-escuro);
+}
+
+.saude-card-img{
+    width: 280px;
+    object-fit: contain;
+    height: 250px;
+}
+
+.card-saude{
+    width: 40%;
+    display: flex;
+    height: 250px;
+    margin-top: 90px;
+    background-color: white;
+    margin: 55px;
+}
+
+.container-saude{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-card-saude{
+    text-align: center;
+}
+
+.titulo-card-saude{
+    text-align: center;
+    color: var(--cinza-escuro);
+    font-size: 23px;
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.descricao-card-saude{
+    text-align: center;
+    color: var(--cinza-escuro);
+    font-family: var(--font-paragrafo);
+    margin: 25px;
+}
