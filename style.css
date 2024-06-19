@@ -553,7 +553,7 @@ details .conteudo-economia{
     border-bottom-right-radius: 15px;
 }
 
-
+/* fim- section-infraestrutura */
 
 @media (min-width: 1024px){
     .container-celular{
@@ -567,58 +567,41 @@ details .conteudo-economia{
         display: none;
     }
 
-    .menu-lateral{
-        width: 80px;
-        height: 100%;
-        background-color: #202020;
-        padding: 40px 0 40px 1%;
-        box-shadow: 3px 0 0 var(--verde);
-    
+    .cabecario-celular{
+        background-color: var(--cinza-claro);
+        box-shadow: var(--box-shadow);
         position: fixed;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-        transition: .5s;
+        width: 100%;
     }
-    
-    .lista-celular{
-        height: 100%;
-        list-style-type: none;
+
+    .navegacao-celular{
+        padding: 15px;
+      
     }
-    
-    .lista-celular li.item-menu{
-        transition: .2s;
-    }
-    
-    
-    .lista-celular li.item-menu {
-        color: #fff;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 20px 4%;
+
+    .lista-nav-celular{
         display: flex;
-        margin-bottom: 20px;
-        line-height: 40px;
+        list-style: none;
     }
-    
-    .lista-celular li.item-menu .links-cell .txt-link{
-        margin-left: 70px;
-        transition: .5s;
-        opacity: 0;
+
+
+    .link-cll{
+        padding: 10px;
+        text-decoration: none;
+        font-family: var(--font-titulo);
+        color: var(--cinza-escuro);
     }
-    
-    nav.menu-lateral.expandir .txt-link{
-        margin-left: 40px;
-        opacity: 1;
+
+    .nav-cll{
+        display: flex;
+        justify-content: center;
     }
-    
-    .lista-celular li.item-menu .links-cell .icon > i{
-        font-size: 30px;
-        margin-left: 10px;
+
+    .lista-nav-celular-2{
+        display: flex;
+        list-style: none;
+        justify-content: center;
     }
-    
-    .svg-cll{
-        width: 50px;
-        fill: white;
-    }
+
+
 }
