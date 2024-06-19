@@ -570,13 +570,16 @@ details .conteudo-economia{
     .cabecario-celular{
         background-color: var(--cinza-claro);
         box-shadow: var(--box-shadow);
-        position: fixed;
         width: 100%;
+        border-radius: 0px 0px 18px 18px;
     }
 
     .navegacao-celular{
         padding: 15px;
-      
+      position: fixed;
+     background-color: var(--cinza-claro);
+     width: 100%;
+     box-shadow: var(--box-shadow);
     }
 
     .lista-nav-celular{
@@ -603,5 +606,56 @@ details .conteudo-economia{
         justify-content: center;
     }
 
+    .tituo-cll-home{
+        color: var(--cinza-escuro);
+        font-size: 26px;
+        font-weight: bold;
+        font-family: var(--font-titulo);
+        padding: 180px 0px 0px 15px;
+        
+    }
 
+    .button-home-cll{
+        text-align: center;
+        margin: 25px;
+    }
+
+    .btn-home-cll{
+        color: white;
+        font-family: var(--font-titulo);
+        box-shadow: var(--box-shadow);
+        width: 105px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        background-color: var(--verde);
+    }
+
+    .img-home-cll{
+        width:250px;
+        margin-top: 35px;
+        border-radius: 18px;
+        box-shadow: var(--box-shadow);
+    }
+    /* fim- section-home */
+
+    /* inicio section-tecnologia */
+    .tecnologia{
+        width: 100%;
+        height: 180vh;
+        background-color: var(--cinza-claro);
+    }
+
+    .card-cll-tec{
+        background-color: white;
+        width: 80%;
+        margin-top: 15px;
+        border-radius: 18px;
+        text-align: center;
+    }
+
+    .container-tec-cll{
+        margin:0% 0% 0% 15%;
+        padding: 18px;
+    }
 }
