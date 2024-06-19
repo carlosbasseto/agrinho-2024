@@ -552,3 +552,73 @@ details .conteudo-economia{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+
+
+@media (min-width: 1024px){
+    .container-celular{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .container-computador{
+        display: none;
+    }
+
+    .menu-lateral{
+        width: 80px;
+        height: 100%;
+        background-color: #202020;
+        padding: 40px 0 40px 1%;
+        box-shadow: 3px 0 0 var(--verde);
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: .5s;
+    }
+    
+    .lista-celular{
+        height: 100%;
+        list-style-type: none;
+    }
+    
+    .lista-celular li.item-menu{
+        transition: .2s;
+    }
+    
+    
+    .lista-celular li.item-menu {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 4%;
+        display: flex;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }
+    
+    .lista-celular li.item-menu .links-cell .txt-link{
+        margin-left: 70px;
+        transition: .5s;
+        opacity: 0;
+    }
+    
+    nav.menu-lateral.expandir .txt-link{
+        margin-left: 40px;
+        opacity: 1;
+    }
+    
+    .lista-celular li.item-menu .links-cell .icon > i{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    
+    .svg-cll{
+        width: 50px;
+        fill: white;
+    }
+}
