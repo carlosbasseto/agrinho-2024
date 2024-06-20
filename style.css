@@ -177,7 +177,6 @@ h2{
     color: var(--cinza-escuro);
     font-family: var(--font-titulo);
     display: inline-block;
-    position: relative;
     padding: 5px;
 }
 
@@ -567,95 +566,241 @@ details .conteudo-economia{
         display: none;
     }
 
-    .cabecario-celular{
-        background-color: var(--cinza-claro);
-        box-shadow: var(--box-shadow);
-        width: 100%;
-        border-radius: 0px 0px 18px 18px;
-    }
+   
+}
+.cabecario-celular{
+    background-color: var(--cinza-claro);
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    border-radius: 0px 0px 18px 18px;
+}
 
-    .navegacao-celular{
-        padding: 15px;
-      position: fixed;
-     background-color: var(--cinza-claro);
-     width: 100%;
-     box-shadow: var(--box-shadow);
-    }
+.navegacao-celular{
+    padding: 15px;
+  position: fixed;
+ background-color: var(--cinza-claro);
+ width: 100%;
+ box-shadow: var(--box-shadow);
+}
 
-    .lista-nav-celular{
-        display: flex;
-        list-style: none;
-    }
+.lista-nav-celular{
+    display: flex;
+    list-style: none;
+}
 
 
-    .link-cll{
-        padding: 10px;
-        text-decoration: none;
-        font-family: var(--font-titulo);
-        color: var(--cinza-escuro);
-    }
+.link-cll{
+    padding: 10px;
+    text-decoration: none;
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+}
 
-    .nav-cll{
-        display: flex;
-        justify-content: center;
-    }
+.nav-cll{
+    display: flex;
+    justify-content: center;
+}
 
-    .lista-nav-celular-2{
-        display: flex;
-        list-style: none;
-        justify-content: center;
-    }
+.lista-nav-celular-2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
 
-    .tituo-cll-home{
-        color: var(--cinza-escuro);
-        font-size: 26px;
-        font-weight: bold;
-        font-family: var(--font-titulo);
-        padding: 180px 0px 0px 15px;
-        
-    }
+.tituo-cll-home{
+    color: var(--cinza-escuro);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: var(--font-titulo);
+    padding: 180px 0px 0px 15px;
+    
+}
 
-    .button-home-cll{
-        text-align: center;
-        margin: 25px;
-    }
+.button-home-cll{
+    text-align: center;
+    margin: 25px;
+}
 
-    .btn-home-cll{
-        color: white;
-        font-family: var(--font-titulo);
-        box-shadow: var(--box-shadow);
-        width: 105px;
-        height: 30px;
-        border-radius: 15px;
-        border: none;
-        background-color: var(--verde);
-    }
+.btn-home-cll{
+    color: white;
+    font-family: var(--font-titulo);
+    box-shadow: var(--box-shadow);
+    width: 105px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--verde);
+}
 
-    .img-home-cll{
-        width:250px;
-        margin-top: 35px;
-        border-radius: 18px;
-        box-shadow: var(--box-shadow);
-    }
-    /* fim- section-home */
+.img-home-cll{
+    width:250px;
+    margin-top: 35px;
+    border-radius: 18px;
+    box-shadow: var(--box-shadow);
+}
+/* fim- section-home */
 
-    /* inicio section-tecnologia */
-    .tecnologia{
-        width: 100%;
-        height: 180vh;
-        background-color: var(--cinza-claro);
-    }
+/* inicio section-tecnologia */
+.tecnologia{
+    width: 100%;
+    height: 180vh;
+    background-color: var(--cinza-claro);
+}
 
-    .card-cll-tec{
-        background-color: white;
-        width: 80%;
-        margin-top: 15px;
-        border-radius: 18px;
-        text-align: center;
-    }
+.card-cll-tec{
+    background-color: white;
+    width: 98%;
+    margin-top: 15px;
+    border-radius: 18px;
+    text-align: center;
+}
 
-    .container-tec-cll{
-        margin:0% 0% 0% 15%;
-        padding: 18px;
-    }
+.container-tec-cll{
+    padding: 18px;
+}
+
+.titulo-card-cll-tec{
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.desc-card-cll-tec{
+    font-family: var(--font-paragrafo);
+    font-size: 15px;
+    padding: 8px;
+}
+
+/* fim section-tecnologia */
+
+/* inicio section-educação */
+
+.educacao-cll{
+    width: 100%;
+    height: 100vh;
+}
+
+.linha-cll{
+    background-color: var(--verde);
+    height: 2px;
+    width: 30px;
+    margin: 15px;
+    margin-top: 91px;
+}
+
+
+.container-bem-vindo{
+    display: flex;
+}
+
+.titulo-bem_vindo-cll{
+    font-family: var(--font-titulo);
+    color: var(--verde);
+    margin: 5px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.titulo-cll-educacao{
+    font-size: 17px;
+    font-family: var(--font-titulo);
+    padding: 8px;
+}
+
+.desc-cll-educacao{
+    font-family: var(--font-paragrafo);
+    font-size: 14px;
+    margin: 15px;
+}
+
+.conteudo-cll-edu{
+    justify-content: center;
+    display: flex;
+}
+
+.container-svg-edu{
+    background-color: var(--verde);
+    padding: 15px;
+    width: 80px;
+    display: flex;
+    margin: 15px;
+    border-radius: 18px;
+}
+
+.svg-educacao{
+    width: 30px;
+    margin-left: 10px;
+    fill: white;
+}
+
+.img-educacao-cll{
+    width: 200px;
+}
+/* fim section-educação */
+
+/* inicio section-saude */
+
+.saude-cll{
+    width: 100%;
+    height: 240vh;
+    background-color: var(--cinza-claro);
+}
+
+.titulo-cll-saude{
+    text-align: center;
+    font-family: var(--font-titulo);
+    color: var(--verde);
+    margin: 5px;
+    font-weight: bold;
+    padding: 85px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.desc-saude-cll{
+    padding: 8px;
+    text-align: center;
+    font-family: var(--font-paragrafo);
+    font-size: 15px;
+    color: var(--cinza-escuro);
+}
+
+.card-cll-saude{
+    background-color: white;
+    width: 90%;
+    height: 260px;
+    margin-top: 20px;
+    margin-left: 17px;
+    border-radius: 18px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.titulo-card-saude-cll{
+    font-family: var(--font-titulo);
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    padding: 8px;
+}
+
+.desc-car-saude-cll{
+    font-family: var(--font-paragrafo);
+    color: var(--cinza-escuro);
+    font-size: 15px;
+    padding: 15px;
+}
+
+.conte-info-card{
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-family: var(--font-titulo);
+    display: inline-block;
+    padding: 5px;
+}
+
+.img-saude-cll{
+    width: 170px;
+    padding: 15px;
+    border-radius: 28px;
 }
