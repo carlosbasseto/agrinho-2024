@@ -689,6 +689,120 @@ details .conteudo-economia{
     font-family: var(--font-paragrafo);
 }
 
+/* fim section-politica */
+
+/* inicio section-urbanização */
+
+.urbanização{
+    width: 100%;
+    background-color: var(--cinza-claro);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.urbanizacao-titulo{
+    padding: 15px;
+    font-family: var(--font-titulo);
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--verde);
+    text-align: center;
+}
+
+.tabela-urbanizacao{
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.cabecalho-tabela-1{
+    border: 1px solid var(--cinza-escuro);
+    font-size: 20px;
+    font-family: var(--font-titulo);
+    font-weight: 450;
+    padding: 8px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.cabecalho-tabela-3{
+    border: 1px solid var(--cinza-escuro);
+    font-size: 20px;
+    font-family: var(--font-titulo);
+    font-weight: 450;
+    padding: 8px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border-radius: 0px 30px 0px 0px;
+}
+
+.cabecalho-tabela{
+    border: 1px solid var(--cinza-escuro);
+    font-size: 20px;
+    font-family: var(--font-titulo);
+    font-weight: 450;
+    padding: 8px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.titulo-campo{
+    border: 1px solid var(--cinza-escuro);
+    padding: 5px;
+    width: 245px;
+    text-align: center;
+    font-family: var(--font-titulo);
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+
+.item-tabela{
+    border: 1px solid var(--cinza-escuro);
+    text-align: center;
+    font-family: var(--font-paragrafo);
+    font-size: 15px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 5px;
+}
+
+.item-tabela-vazio{
+    border: 1px solid var(--cinza-escuro);
+    background-color: rgb(90, 90, 90);
+}
+/* fim section-urbanização */
+
+/* inicio rodape */
+
+.rodape{
+    width: 100%;
+    background-color: var(--cinza-claro);
+    border-top: 2px solid;
+    text-align: center;
+    margin-top:20px ;
+}
+
+.titulo-copyrigth{
+    font-size: 17px;
+    font-family: var(--font-titulo);
+    padding: 8px;
+    font-weight: bold;
+}
+
+.descricao-copyrigth{
+    font-size: 15px;
+    font-family: var(--font-paragrafo);
+    padding: 8px;
+    font-weight: bold;
+}
+
+/* fim rodape */
+
+
 /* inicio section-home-celular */
 @media (min-width: 1024px){
     .container-celular{
